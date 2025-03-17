@@ -1,6 +1,10 @@
+import Header from "../components/header";
+
 function NotFound () {
     return (
-        <p>Pagina não encontrada!</p>
+        <div className='notFound'>
+          <h1>404: Page Not Found</h1>  
+        </div>
     )
 }
 
