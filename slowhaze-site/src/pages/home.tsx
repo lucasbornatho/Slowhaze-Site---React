@@ -7,6 +7,7 @@ function Home() {
     <div>
         <Header />
         <CarouselHome />
+        <CarouselHome />
         <Footer />
     </div>
   );
