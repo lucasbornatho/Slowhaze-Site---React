@@ -35,10 +35,9 @@ function CarouselHome () {
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px">
-            <img src='/slowhaze-logo.png' alt='slowhazelogo'></img>
-            <img src='/slowhaze-logo.png' alt='slowhazelogo'></img>
-            <img src='/slowhaze-logo.png' alt='slowhazelogo'></img>
-            <img src='/slowhaze-logo.png' alt='slowhazelogo'></img>
+            <a><img className='img-carousel' src='/slowhaze.png' alt='slowhaze-ep'></img></a>
+            <a><img className='img-carousel' src='/ignite.png' alt='ignite'></img></a>
+            <a><img className='img-carousel' src='/afraid.png' alt='afraid'></img></a>
         </Carousel>
     )
 }

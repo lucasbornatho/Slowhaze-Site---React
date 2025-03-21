@@ -48,6 +48,17 @@
   color:white;
 
 }
+
+/* img carousel */
+
+.img-carousel {
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
  
 /* footer */
 
@@ -66,4 +77,5 @@
   align-items: center;
   color: white;
   gap: 20px;
+  position: absolute;
 }
