@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     open: true, // Abre o navegador automaticamente
-  }
+  },
+  root: './', // Especifica que o diretório raiz é a raiz do projeto
 })
