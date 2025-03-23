@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
   background-color: black;
   width: 100%;
@@ -26,6 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   gap: 100px;
   height: 60px;
 }
@@ -89,7 +91,7 @@
   }
 
   .header-menu {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     height: auto;
   }
